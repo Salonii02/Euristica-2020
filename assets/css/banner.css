@@ -207,10 +207,9 @@ svg {
         }
 
       #container {
-            width: 70vw;
+            width: 55vw;
             margin-top: -15vw;
             margin-bottom: -25vw;
-	    padding-right: 4em;
             /* margin-left: -2vw; */
         }  
 
