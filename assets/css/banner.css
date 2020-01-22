@@ -210,7 +210,7 @@ svg {
             width: 70vw;
             margin-top: -15vw;
             margin-bottom: -25vw;
-            margin-left: -2vw;
+            /* margin-left: -2vw; */
         }  
 
       svg {
