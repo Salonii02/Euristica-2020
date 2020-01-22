@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg {
+    display: block;
+    font: 10.5em 'Euristica';
+    font-family: 'Inconsolata', monospace;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    font-weight: bold;
+    stroke: white;
+    stroke-dasharray: 12% 24%;
+    stroke-width: 6px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #fff;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #c800ff;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #c800ff;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #c800ff;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #c800ff;
+	animation-delay: -5s;
+}
+
+#banner p{
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+    @media screen and (max-width: 1680px) {
+
+      #banner {
+        /*  padding: 11em 0 9em 0;  */
+        padding: 11em 0 17em 0;
+      }
+
+     #container {
+            width: 70vw;
+            margin-top: 3vw;
+            margin-bottom: -7vw;
+        } 
+    
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      #banner {
+      /*  padding: 9em 0 7em 0;*/
+          padding: 11em 0 19em 0;
+      }
+
+     #container {
+            width: 70vw;
+            margin-top: 3vw;
+            margin-bottom: -9vw;
+            margin-left: 12vw;
+        }      
+
+      svg {
+          display: block;
+          font: 10em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 860px;
+          height: 300px;
+          margin: 0 auto;
+      }      
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+      #banner {
+      /*  padding: 8em 2em 6em 2em; */
+          padding: 11em 0 17em 0;
+      }
+      
+     #container {
+            width: 70vw;
+            margin-top: 3vw;
+            margin-bottom: -13vw;
+            margin-left: 2vw;
+        }  
+
+      svg {
+          display: block;
+          font: 9em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 700px;
+          height: 300px;
+          margin: 0 auto;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #banner {
+        /*padding: 5em 2em 3em 2em;*/
+        padding: 13em 0 17em 0;
+        object-fit: auto;
+
+      }
+
+     #container {
+            width: 70vw;
+            margin-top: -10vw;
+            margin-bottom: -17vw;
+            margin-left: -1vw;
+        }        
+
+
+      svg {
+          display: block;
+          font: 6em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 600px;
+          height: 300px;
+          margin: 0 auto;
+      }     
+
+        #banner p {
+          font-size: 1em;
+        }
+        
+        #banner a{
+          font-size:13px;
+        }
+
+        #banner .icon {
+          font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+      #container {
+            width: 70vw;
+            margin-top: -10vw;
+            margin-bottom: -20vw;
+            margin-left: 5vw;
+        }  
+
+      svg {
+          display: block;
+          font: 8em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 500px;
+          height: 300px;
+          margin: 0 auto;
+      }           
+    }  
+
+    @media screen and (max-width: 550px) {
+      #container {
+            width: 70vw;
+            margin-top: -15vw;
+            margin-bottom: -25vw;
+            margin-left: -2vw;
+        }  
+
+      svg {
+          display: block;
+          font: 8em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 500px;
+          height: 300px;
+          margin: 0 auto;
+      }         
+    }          
+
+    @media screen and (max-width: 480px) {
+
+      #banner {
+        /*padding: 5em 2em 3em 2em; */
+        padding: 11em 0 17em 0;
+        }
+
+      #container {
+            width: 70vw;
+            margin-top: -15vw;
+            margin-bottom: -25vw;
+            margin-left: -2vw;
+        }  
+
+      svg {
+          display: block;
+          font: 7.5em 'Euristica';
+          font-family: 'Inconsolata', monospace;
+          width: 500px;
+          height: 300px;
+          margin: 0 auto;
+      }          
+
+        #banner .icon {
+          font-size: 1.5em;
+        }
+        
+        
+        #banner p {
+        font-size: 1em;         
+      }
+
+    }
