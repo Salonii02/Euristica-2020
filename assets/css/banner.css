@@ -106,7 +106,7 @@ svg {
       }
       
      #container {
-            width: 70vw;
+            width: 80vw;
             margin-top: 3vw;
             margin-bottom: -13vw;
             margin-left: 2vw;
@@ -207,7 +207,7 @@ svg {
         }
 
       #container {
-            width: 55vw;
+            width: 80vw;
             margin-top: -15vw;
             margin-bottom: -25vw;
             /* margin-left: -2vw; */
@@ -220,6 +220,7 @@ svg {
           width: 500px;
           height: 300px;
           margin: 0 auto;
+	  padding-right:3em;
       }          
 
         #banner .icon {
