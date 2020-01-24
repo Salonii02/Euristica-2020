@@ -1197,6 +1197,7 @@
 		.wrapper.style1 {
 			background-color: #333;
 			background-image: url("../../images/flash-1.jpg");
+			background-size:cover;
 			color: #777;
 		}
 
@@ -2376,7 +2377,9 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 6em 0;
+	    padding: 16% 0 10% 0;
+	    /* padding: 8em 0 6em 0; */
+		height:100vh;
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
@@ -2508,7 +2511,12 @@
 				
 		#container {
             width: 70vw;
+			/*
             margin: 0vw auto;
+			*/
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:-100px;
         }
 		
 				
@@ -2518,7 +2526,8 @@
 			text-align:centre;
 			font-size:3.8vw;
 			color:#fff;
-			padding-left:600px;
+			/*padding-left:600px;*/
+			padding-left: 40vw;
 			margin-top:-60px;
 		}
 		
@@ -2540,7 +2549,7 @@
      		text-align:centre;
 			font-size:3.9vw;
 			color:#fff;
-			padding-left:500px;
+			padding-left: 40vw;
 			margin-top:-40px;
 			}
 
@@ -2556,7 +2565,7 @@
      		text-align:centre;
 			font-size:4.5vw;
 			color:#fff;
-			padding-left:300px;
+			padding-left: 40vw;
 			margin-top:-40px;
 			}
 		}
@@ -2571,7 +2580,7 @@
      		text-align:centre;
 			font-size:6vw;
 			color:#fff;
-			padding-left:140px;
+			padding-left: 40vw;
 			margin-top:-10px;
 			}
 
@@ -2584,7 +2593,7 @@
      		text-align:centre;
 			font-size:6.3vw;
 			color:#fff;
-			padding-left:125px;
+			padding-left: 30vw;
 			margin-top:-7px;
 			}
 
